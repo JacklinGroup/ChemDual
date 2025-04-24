@@ -1,0 +1,13 @@
+### Note: DO NOT use quantized model or quantization_bit when merging lora adapters
+
+### model
+model_name_or_path: /root/autodl-tmp/LLaMA-Factory/models/ChemDual_mol
+adapter_name_or_path: saves/ChemDual/additional/2024-08-17/checkpoint-27000
+template: llama3
+finetuning_type: lora
+
+### export
+export_dir: /root/autodl-tmp/LLaMA-Factory/models/ChemDual_mol_uspto
+export_size: 5
+export_device: cpu
+export_legacy_format: false

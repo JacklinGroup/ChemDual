@@ -1,0 +1,26 @@
+### model
+model_name_or_path: /root/autodl-tmp/Meta-Llama-3.1-8B-Instruct
+adapter_name_or_path: saves/LLaMA-3.1-8B/lora/train_2024-08-09/checkpoint-48000
+
+### method
+stage: sft
+do_predict: true
+finetuning_type: lora
+
+### dataset
+dataset_dir: /root/autodl-tmp/LLaMA-Factory/ChemDual
+eval_dataset: smiles_test
+template: llama3
+cutoff_len: 1024
+max_samples: 1000
+overwrite_cache: true
+preprocessing_num_workers: 48
+
+### output
+output_dir: saves/LLaMA-3.1-8B/lora/decompose_eval_2024-08-11
+overwrite_output_dir: true
+
+### eval
+per_device_eval_batch_size: 2
+predict_with_generate: true
+ddp_timeout: 180000000
