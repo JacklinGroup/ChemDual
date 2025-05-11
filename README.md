@@ -3,7 +3,7 @@ Codes for our paper *Enhancing Chemical Reaction and Retrosynthesis Prediction w
 
 Full version is available at [arXiv](https://arxiv.org/pdf/2505.02639).
 
-Appendix is available at [Here](/assets/Appendix.pdf)
+Appendix is available at [Here](/assets/Appendix.pdf).
 
 <!-- *Visual instruction tuning towards large language and vision models with GPT-4 level capabilities.*-->
 
