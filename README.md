@@ -1,6 +1,10 @@
 # ChemDual: Enhancing Chemical Reaction and Retrosynthesis Prediction with Large Language Model and Dual-task Learning
 Codes for our paper *Enhancing Chemical Reaction and Retrosynthesis Prediction with Large Language Model and Dual-task Learning*
 
+Full version is available at [arXiv](https://arxiv.org/pdf/2505.02639).
+
+Appendix is available at [Here](/assets/Appendix.pdf)
+
 <!-- *Visual instruction tuning towards large language and vision models with GPT-4 level capabilities.*-->
 
 
